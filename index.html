@@ -1,7 +1,45 @@
 <html>
   <head>
+    <style>
+body {
+  margin:0;
+  padding: 0;
+  font-size: 60px;
+  font-family: helvetica, sans-serif;
+  background-color: black;
+  color: red;
+  height: 100%;
+}
+
+#myheart {
+  animation-name: youre-curious;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  margin: 0 auto 0 auto;
+  display: block;
+  text-align: center;
+}
+
+@keyframes youre-curious {
+  from {
+    font-size: 60px;
+  }
+  to {
+    font-size: 120px;
+  }
+}
+    </style>
+    <title>&hearts;</title>
   </head>
   <body>
-    <p>Hello World</p>
+    <div id="myheart">
+     &hearts;
+    </div>
+    <p align="center">
+      <a href="/resume.html">Resume</a> | <a href="http://www.linkedin.com/in/paulodelgado">LinkedIn</a>
+    </p>
   </body>
 </html>
